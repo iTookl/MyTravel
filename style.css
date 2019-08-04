@@ -1,0 +1,146 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	/* border: 1px solid black; */
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	min-height: 663px;
+	background-color: dodgerblue;
+}
+
+
+
+
+.menuBar {
+	width: 100%;
+	height: 50;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	align-items: center;
+}
+.wrapMenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: center;
+	width: 95%;
+}
+.logoPic {
+	width: 50px;
+	height: 50px;	
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logoText {
+	font-weight: 700;
+	font-size: 1.7em;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+	width: 30%;
+}
+
+
+
+
+
+
+/* SLOGAN */
+.slogan {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+
+}
+/*  */
+
+
+
+/* SEARCH */
+.wraperForSearch {
+	width: 100%;
+	height: 610px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.titleWitHInput {
+	display: flex;
+	flex-direction: column;
+}
+.wraperForForm {
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.search {
+	 width: 70%; 
+	 margin: auto;
+	/* height: 610px; */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;	
+}
+
+.placeInput {
+	display: flex;
+	flex-direction: row;
+}
+.inputSize {
+	height: 46px;
+}
+/*  */
+
+
+
+/* BUTTON SUBMIT */
+.myButton {
+	background-color:#ff8d14;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ff8d14;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#f05603;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#address {
+	height: 50px;
+	width: 200PX;
+}
+#secondAddress {
+	height: 50px;	
+	width: 200PX;
+}

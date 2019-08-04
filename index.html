@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.jsdelivr.net/npm/places.js@1.16.4"></script>
+	<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="menuBar">
+				<div class="wrapMenu">
+					<a href="index.html">
+						<div class="logo">
+							<img src="img/logo.png" alt="logo" class="logoPic">
+							<span class="logoText">MyTravel</span>	
+						</div>
+					</a>
+
+					<div class="menu">
+						<a href="#" class="midOption" >Top Events</a>
+						<a href="#" class="midOption" >Unexpected vents</a>
+						<a href="#" class="option" id="rightRadius">About Us</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="wraperForSearch">
+				<div class="slogan">
+					<h1>Take care of your journey</h1>				
+				</div>
+
+		
+
+				<div class="wraperForForm" id="wraperForForm">
+					<div class="search">
+						<div class="placeInput">
+							<label class="titleWitHInput">
+								From
+								<input type="search" id="address" class="form-control" placeholder="From where are we going?" />	
+							</label>
+							
+							<label class="titleWitHInput">
+								To
+								<input type="search" id="secondAddress" class="form-control" placeholder="From where are we going?"/>							
+							</label>					
+						</div>
+
+						<div class="dateBlock">
+							<input type="date" class="inputSize" id="fromData">
+							<input type="date" class="inputSize" id="toData">	
+						</div>
+						
+						<div class="interestField">
+							<label class="titleWitHInput">
+								Your Hobby
+								<input type="text" class="inputSize">
+							</label>	
+						</div>			
+					</div>
+				
+					<div class="buttonSubmit">
+						<button class="myButton" id="action">Go</button>		
+					</div>
+				</div>
+				
+
+			</div>
+		</header>
+
+
+		<div class="content" id="content">
+			
+		</div>
+
+
+		<footer>
+			
+		</footer>
+	</div>
+	<script src="script.js"></script>
+	<script src="script2.js"></script>
+</body>
+</html>
